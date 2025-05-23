@@ -1,3 +1,4 @@
+#Trigger.sh file
 #!/bin/bash
 curl \
  -X POST http://harshali.jenkins:8080/job/ENV/build?delay=0sec \
